@@ -1,5 +1,7 @@
 import { View, Text, FlatList, StyleSheet } from "react-native";
 
+import { Ionicons } from "@expo/vector-icons";
+
 function ListingCars() {
   // BUSINESS LOGIC AREA
 
@@ -19,6 +21,8 @@ function ListingCars() {
   // structure for the list
   const renderItem = ({ item }) => (
     <View style={styles.itemCon}>
+      <Ionicons name="car" size={30} color="white" />
+      <Ionicons name="person" size={30} color="white" />
       <Text>{item}</Text>
     </View>
   );
