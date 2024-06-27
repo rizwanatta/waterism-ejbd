@@ -1,12 +1,12 @@
 import { StatusBar } from "expo-status-bar";
-import ListingCars from "./src/screens/ListingCars";
 import { View } from "react-native";
+import ConfettiePractice from "./src/screens/ConfettiePractice";
 
 export default function App() {
   return (
     <View>
       <StatusBar style="light" />
-      <ListingCars />
+      <ConfettiePractice />
     </View>
   );
 }
